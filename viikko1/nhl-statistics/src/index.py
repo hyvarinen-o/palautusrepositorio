@@ -18,6 +18,8 @@ def main():
     for player in top_scorers:
         print(player)
 
+    print(stats.search("Sidney Crosby"))
+
 
 if __name__ == "__main__":
     main()
