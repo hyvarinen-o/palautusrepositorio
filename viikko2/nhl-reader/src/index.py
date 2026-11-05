@@ -1,7 +1,8 @@
-from player_reader import PlayerReader
-from player_stats import PlayerStats
 from rich.console import Console
 from rich.table import Table
+from player_reader import PlayerReader
+from player_stats import PlayerStats
+
 
 def main():
     countries = "USA/FIN/CAN/SWE/CZE/RUS/SLO/FRA/GBR/SVK/DEN/NED/AUT/BLR/GER/SUI/NOR/UZB/LAT/AUS"
@@ -9,7 +10,7 @@ def main():
     while True:
         console = Console()
         table = Table(border_style="white")
-        
+
         table.add_column("Name", style="blue", no_wrap=True)
         table.add_column("Team", style="magenta")
         table.add_column("Goals", style="green", justify="right")
@@ -27,10 +28,10 @@ def main():
         if nationality.lower() == "quit":
             print("goodbye")
             break
-        elif nationality not in country_list:
+        if nationality not in country_list:
             print("Invalid nationality")
             continue
-        elif nationality in country_list:
+        if nationality in country_list:
             players = stats.top_scorers_by_nationality(nationality)
             for p in players:
                 table.add_row(

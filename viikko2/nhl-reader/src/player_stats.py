@@ -10,5 +10,3 @@ class PlayerStats:
             if p.nationality == nationality:
                 players.append(p)
         return players
-
-    
