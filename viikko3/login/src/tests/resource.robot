@@ -49,7 +49,7 @@ Set Password
 
 Set Password Confirmation
     [Arguments]  ${password}
-    Fill Text  id=password_confirmation  $password
+    Fill Text  id=password_confirmation  ${password}
 
 Welcome Page Should Be Open
     Get Title  ==  Welcome to Ohtu Application!
