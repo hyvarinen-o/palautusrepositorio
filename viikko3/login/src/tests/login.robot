@@ -16,7 +16,12 @@ Login With Incorrect Password
     Set Password  kalle456
     Click  button >> text=Login
     Login Should Fail With Message  Invalid username or password
-
+    
+Login With Nonexistent Username
+    Set Username  ei_olemassa
+    Set Password  kalle456
+    Click  button >> text=Login
+    Login Should Fail With Message  Invalid username or password
 *** Keywords ***
 Login Should Succeed
     Main Page Should Be Open
