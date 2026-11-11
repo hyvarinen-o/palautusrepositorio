@@ -79,6 +79,14 @@ def handle_register():
     password = request.form.get("password")
     password_confirmation = request.form.get("password_confirmation")
 
+    if len(username) < 3:
+        flash("Username too short")
+        return redirect_to_register()
+
+    if len(password) < 8:
+        flash("Password too short")
+        return redirect_to_register()
+    
     try:
         user_service.create_user(username, password, password_confirmation)
         return redirect_to_welcome()
