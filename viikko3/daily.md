@@ -1,0 +1,2 @@
+ohtubotin keskustelun kanssa, sain selville miten ryhmän yleinen ote ongelmiin vaikuttaa itseeni. Hyvässä dailyssä voi tuoda esille mitä vain ja ei tunne oloansa vähäisemmäksi. Jos ryhmän tunnelma vaihtelee, niin sekin jo luo epävarmuutta omaan tekemiseen. Jos ryhmä on syyllistävä tuntui ongelman esiintuominen vastenmieliseltä ja on selkeää miksi tälläisessa palaverissa tekisi kaikkensa, vältelläkseen tälläisiä konfrontaatioita.
+Vaikka olisi itse minkälaisella tuulella ryhmän syyllistävä asenne voi saada kenet vaan puolustelevalle tai jopa hyökkäävälle asenteelle. 
