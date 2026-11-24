@@ -1,0 +1,1 @@
+Annoin agentille ohjeistuksen, ja agentti ei antanut muita huomioita koodista kuin "Koodissa ei ole toimintaa rikkovia muutoksia" Agentti ei ehdottanut muutoksia. Agentin katselmointi oli siinä mielessä hyödylline, että saa varmuuden virheiden olemassaolosta. Agentti ei huomannut mitään, mikä minulta jäi huomaamatta. Agentin oli semmoinen jonka kuulen mielellään ryhmäkaverilta,
