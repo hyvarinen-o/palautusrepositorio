@@ -1,0 +1,2 @@
+Agentti toteutti toimivan sovelluksen ja testit ohjeiden mukaisesti. Varmistin agentin tekemän ohjelman käymällä testit läpi ja ajamalla ne. Käynnistin sen jälkeen sovelluksen paikallisesti ja kävin testaamassa toiminnallisuutta, sovellus toimi kuten ajattelin ja virhe tilanteet käsiteltiin tyydyttävästi. Testit testasivat olennaisia osia sovellusta
+Koodi oli selkeää paitsi html tiedostossa määritetyt tyyli asetukset olisi voinut tehdä erikseen css tiedostoon. Agentti käytti Flaskia eri tavalla kuin itse olen käyttänyt joten opin siitä vähän enemmän Flaskin käytöstä.
